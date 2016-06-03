@@ -115,7 +115,7 @@ sonarRunner {
         property "sonar.jdbc.username", "sonarqubeuser"
         property "sonar.jdbc.password", "secretpassword"
         property "sonar.java.source", "1.8"
-        property "sonar.java.binaries",
-        property "sonar.java.libraries",
+        property "sonar.java.binaries"
+        property "sonar.java.libraries"
     }
 }
