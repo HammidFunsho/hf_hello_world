@@ -27,7 +27,8 @@ apply plugin: 'nebula.rpm'
 apply plugin: 'pmd'
 apply plugin: "findbugs"
 apply plugin: 'checkstyle'
-apply plugin: "sonar-runner"
+//apply plugin: "sonar-runner"
+apply plugin: "org.sonarqube"
 
 jacocoTestReport {
     reports {
