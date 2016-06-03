@@ -4,7 +4,7 @@
 *.ear
 *.class
 #new note
-# eclipse specific git ignore
+# eclipse specific git ignor
 .metadata
 bin/**
 tmp/**
