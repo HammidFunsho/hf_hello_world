@@ -1,12 +1,16 @@
 buildscript {
     repositories {
     	jcenter()
+    	maven {
+      url "https://plugins.gradle.org/m2/"
+    }
     }
 
     dependencies {
     	classpath 'org.spockframework:spock-core:1.0-groovy-2.4'
     	classpath 'com.netflix.nebula:gradle-ospackage-plugin:2.0.2'
     	classpath 'com.bmuschko:gradle-nexus-plugin:2.3.1'
+    	classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.0.1"
     }
 }
 
