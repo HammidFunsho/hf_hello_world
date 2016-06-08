@@ -48,7 +48,7 @@ sourceCompatibility = 1.8
 // project version
 version = '1.0.2'
 // War file name
-war.baseName = 'hello-world'
+war.baseName = 'hello_world5'
 // Web directory, this overrides the default value "webapp"
 // project.webAppDirName = 'WebContent'
 
@@ -62,7 +62,7 @@ war.baseName = 'hello-world'
     }*/
 
 task app1Rpm(type: Rpm) {
-    packageName 'hello-world'
+    packageName 'hello_world5'
     version '1.0.2'
     arch NOARCH
     os LINUX
