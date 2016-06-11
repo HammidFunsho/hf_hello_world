@@ -89,7 +89,7 @@ uploadArchives {
             }
           
             // change to point to your repo, e.g. http://my.org/repo
-            url "http://ec2-52-207-237-232.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots"
+            url "http://ec2-54-209-55-68.compute-1.amazonaws.com:8081/nexus/content/repositories/snapshots"
       }
     }
 }
@@ -107,10 +107,10 @@ pmd {
 
 sonarRunner {
     sonarProperties {
-        property "sonar.host.url", "http://ec2-52-207-237-232.compute-1.amazonaws.com:9000"
+        property "sonar.host.url", "http://ec2-54-209-55-68.compute-1.amazonaws.com:9000"
         property "sonar.username", "admin"
         property "sonar.password", "admin"
-        property "sonar.jdbc.url", "jdbc:mysql://ec2-52-207-237-232.compute-1.amazonaws.com:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance"
+        property "sonar.jdbc.url", "jdbc:mysql://ec2-54-209-55-68.compute-1.amazonaws.com:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance"
         property "sonar.jdbc.driverClassName", "com.mysql.jdbc.Driver"
         property "sonar.jdbc.username", "sonarqubeuser"
         property "sonar.jdbc.password", "secretpassword"
